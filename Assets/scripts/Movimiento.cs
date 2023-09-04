@@ -2,42 +2,19 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
-    public bool left = false;
-    public bool right = false;
+    public float movementSpeed = 5f;
 
-    public Rigidbody2D rb;
-    public float speed;
+    private Rigidbody2D rb;
 
-    public void Leftbt()
+    private void Start()
     {
-        left = true;
-    }
-
-    public void Leftno()
-    {
-        left = false;
-    }
-
-    public void Rightbt()
-    {
-        right = true;
-    }
-
-    public void Rightno()
-    {
-        right = false;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        if (left)
-        {
-            rb.AddForce(new Vector2(-speed, 0));
-        }
-
-        if (right)
-        {
-            rb.AddForce(new Vector2(speed, 0));
-        }
+        float horizontalInput = Input.GetAxis("Horizontal");
+        Vector2 movement = new Vector2(horizontalInput * movementSpeed, rb.velocity.y);
+        rb.velocity = movement;
     }
 }
