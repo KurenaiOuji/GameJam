@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fruit : MonoBehaviour
+public class Fruit : MonoBehaviour
 {
-    [SerializeField] GameObject[] fruitprefab;
+    [SerializeField] GameObject[] ObjectsPrefab;
     [SerializeField] float secondSpawn = 0.5f;
     [SerializeField] float minTras;
     [SerializeField] float maxTras;
@@ -16,11 +16,11 @@ public class fruit : MonoBehaviour
 
     IEnumerator FruitSpawn()
     {
-        while (true)
+        while (true) 
         {
             var wanted = Random.Range(minTras, maxTras);
             var position = new Vector3(wanted, transform.position.y);
-            GameObject gameObject = Instantiate(fruitprefab[Random.Range(0, fruitprefab.Length)], position, Quaternion.identity);
+            GameObject gameObject = Instantiate(ObjectsPrefab[Random.Range(0, ObjectsPrefab.Length)], position, Quaternion.identity);
             yield return new WaitForSeconds(secondSpawn);
             Destroy(gameObject, 5f);
         }
