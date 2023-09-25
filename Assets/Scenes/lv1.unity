@@ -532,7 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitprefab:
   - {fileID: 8716178632530395141, guid: 6ca7c9a15952f584aa57105add2b2918, type: 3}
-  secondSpawn: 1.2
+  secondSpawn: 1.4
   minTras: -7.8
   maxTras: 7.8
 --- !u!4 &266652971
@@ -678,8 +678,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitprefab:
   - {fileID: 980415020442862241, guid: 75ba6a37c69c55c41ae1e0d40b3e7f60, type: 3}
-  secondSpawn: 0.7
+  secondSpawn: 0.9
   minTras: -7.8
   maxTras: 7.8
 --- !u!4 &467881381
@@ -809,7 +809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9d0267aeef7d449d7fcac039deba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 867945589}
 --- !u!114 &476054736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1097,8 +1096,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1163,7 +1162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 152.7, y: -20.409}
+  m_AnchoredPosition: {x: 187, y: -21}
   m_SizeDelta: {x: 163.2748, y: 40.818695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &987768816
@@ -1315,7 +1314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitprefab:
   - {fileID: 1261340684852199504, guid: 6f2b87befc05c6c489c924a22a7c5935, type: 3}
-  secondSpawn: 1
+  secondSpawn: 1.2
   minTras: -7.8
   maxTras: 7.8
 --- !u!4 &1475990443
@@ -1567,7 +1566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitprefab:
   - {fileID: 4639431419547476597, guid: 4d96f240b00d0854cb8024ff263043cc, type: 3}
-  secondSpawn: 0.6
+  secondSpawn: 0.8
   minTras: -7.8
   maxTras: 7.8
 --- !u!1 &1966785050
@@ -1601,7 +1600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitprefab:
   - {fileID: 7692214087045274256, guid: 10446b3a9fa2f9d40a42d5f87b85f0e0, type: 3}
-  secondSpawn: 1.5
+  secondSpawn: 1.7
   minTras: -7.8
   maxTras: 7.8
 --- !u!4 &1966785052

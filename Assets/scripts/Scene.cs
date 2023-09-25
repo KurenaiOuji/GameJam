@@ -14,7 +14,8 @@ public class Scene : MonoBehaviour
     {
         if (score.puntuacion >= 150)
         {
-            SceneManager.LoadScene("lv2", LoadSceneMode.Additive);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
         }
     }
 }
