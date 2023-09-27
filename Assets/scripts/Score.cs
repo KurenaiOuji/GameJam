@@ -10,6 +10,7 @@ public class Score : MonoBehaviour
 
     private void Start()
     {
+        puntuacion = 0;
         cronometro = FindAnyObjectByType<Cronometro>();
     }
     void Update()
