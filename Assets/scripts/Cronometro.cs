@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Cronometro : MonoBehaviour
 {
-    [SerializeField] float Tiempo;
+    public float Tiempo;
     [SerializeField] int Scene;
     [SerializeField] int MaxScore;
     Score score;

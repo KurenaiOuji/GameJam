@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Scene : MonoBehaviour
 {
+    public int Lv;
     Score score;
     [SerializeField] int ScoreMax;
     
@@ -20,7 +21,7 @@ public class Scene : MonoBehaviour
     {
         if (score.puntuacion >= ScoreMax)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(Lv);
         }
     }
 }
