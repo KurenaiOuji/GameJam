@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6a4af54f9c79f14a89236a38be1f33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntuacion: 0
+  puntuacion: 325
   Cronometro: {fileID: 973834881}
   TextPro: {fileID: 871180787}
 --- !u!4 &976596291
@@ -1574,9 +1574,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f2e031369d4164fadcd18b0a153e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tiempo: 60
+  Tiempo: 120
   Scene: 4
-  MaxScore: 150
+  MaxScore: 325
 --- !u!4 &1639331715
 Transform:
   m_ObjectHideFlags: 0

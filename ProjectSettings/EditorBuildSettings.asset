@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/lv3.unity
     guid: e8b3b20b585e4174cb1d13097a1ad827
   - enabled: 1
-    path: Assets/Scenes/muerte1.unity
+    path: Assets/Scenes/muerte.unity
     guid: 586cf2e11ef4dd841bf9bcda91be3efe
   - enabled: 1
     path: Assets/Scenes/Ganaste.unity
