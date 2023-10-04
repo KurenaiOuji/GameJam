@@ -5,7 +5,7 @@ public class Scene : MonoBehaviour
 {
     public int Lv;
     Score score;
-    [SerializeField] int ScoreMax;
+    public int ScoreMax;
     
     void Start()
     {
